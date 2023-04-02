@@ -1,0 +1,13 @@
+.nav {
+    display: grid;
+    grid-template-columns: 4fr;
+    background-color: beige;
+    
+}
+
+.navtext{
+    text-align: center;
+    justify-content: center;
+    gap: 10px
+    
+}
