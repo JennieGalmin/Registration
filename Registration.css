@@ -1,13 +1,62 @@
-.nav {
-    display: grid;
-    grid-template-columns: 4fr;
+* {
+    margin: 0;
+    padding:0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
     background-color: beige;
+    height: 150px;
     
 }
 
-.navtext{
-    text-align: center;
-    justify-content: center;
-    gap: 10px
+.logo {
     
+    
+}
+.navbar-links ul {
+
+    display: flex;
+    gap:30px;
+}
+.navbar-links li{
+    list-style: none;
+    
+}
+.navbar-links li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width:700px;
+    background-color: brown;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    gap: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+
+}
+
+.maintext {
+    padding: 10px;
+    
+
+}
+
+.registrationform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
