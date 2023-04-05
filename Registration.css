@@ -1,62 +1,87 @@
 * {
     margin: 0;
     padding:0;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(169, 216, 218);
+    
+
 }
 
 .navbar {
     display: flex;
     flex-direction: row;
+    background-color: rgb(169, 216, 218);
     justify-content: flex-end;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 30px;
-    background-color: beige;
-    height: 150px;
-    
+    height:5rem;
 }
 
 .logo {
-    
-    
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
 }
-.navbar-links ul {
 
+.links ul {
     display: flex;
-    gap:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 1rem;
+
 }
-.navbar-links li{
+
+.links li {
     list-style: none;
-    
 }
-.navbar-links li a {
+
+.links li a {
     text-decoration: none;
     display: block;
-    padding: 10px;
+    padding: 1rem;
+    color: black;
 }
-.main {
+.links li:hover{
+    background-color: white;
+}
+
+.wrapper {
     display: flex;
-    flex-direction: column;
-    height: 350px;
-    width:700px;
-    background-color: brown;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    gap: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
-
-}
-
-.maintext {
-    padding: 10px;
+    height: 500px;
     
 
 }
 
-.registrationform {
+.main {
     display: flex;
-    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(91, 144, 144);
+    align-items: center;
+    padding: 15px;
+    
+}
+
+.form {
+    display: flex;
+    background-color: rgb(105, 162, 154);
     justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    
+}
+
+.footer {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 5rem;
 
 }
+
+    
